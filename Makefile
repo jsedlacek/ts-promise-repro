@@ -1,2 +1,2 @@
 index.js: index.ts
-	tsc -t es6 --strictNullChecks index.ts
+	node_modules/.bin/tsc -t es6 --strictNullChecks index.ts
